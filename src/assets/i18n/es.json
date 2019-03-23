@@ -1,0 +1,38 @@
+{
+    "commons": {
+        "moreDetails": "Mas detalles"
+    },
+    "navbar": {
+        "title": "Amiguetes Company",
+        "news": "Novedades",
+        "filmography": "Filmografía",
+        "rumor": "Rumorología",
+        "fakeNews": "Fake News",
+        "quiz": "Encuestas"
+    },
+    "projects": {
+        "ASweetRevenge": {
+            "name": "Una dulce venganza",
+            "summary": "Cada acción tiene una reaccion igual y opuesta, en algunas ocasiones, se sirve fría",
+            "description": "Una empresa textil de varias generaciones de grandes éxitos, vive su peor momento afrontando adversidades de todo tipo. Sus empleados se ven forzados a implicarse más allá de su responsabilidad puramente profesionales para garantizar sus puestos de trabajo. Una trepidante lucha entre intereses y necesidades de los protagonistas marcan este drama humano que nos recuerda el frágil equilibro de la situación laboral de la sociedad"
+        }
+    },
+    "news": {
+        "spinning": {    
+            "title": "Se inicia el rodaje de 'Una dulce venganza'",
+            "summary": "Lo último entre Amiguetes Company y Video Amasus se inició hace unas semanas y podrá disfrutarse este 2019",
+            "description": "Confirmado! Amiguetes Company y Ama",
+            "date": "21-03-2019"
+        }
+    },
+    "quiz": {
+        "vote": "Votar",
+        "ASweetRevengeEnds": {
+            "title": "¿Cuál crees que será el final de 'Una dulce venganza'?",
+            "coorp": "Los empleados formarán una cooperativa para continuar con la empresa",
+            "bank": "El banco comprará la empresa y la mantendrá abierta hasta venderla a un tercero",
+            "family": "La familia Padrós continuará como propietaria y la mantendrá abierta",
+            "close": "Finalmente la empresa cerrará sus puertas"
+        }
+    }
+}

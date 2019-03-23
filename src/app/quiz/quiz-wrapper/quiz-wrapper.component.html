@@ -1,0 +1,14 @@
+<div class="row mb-2">
+  <div class="col blog-main">
+    <h1 class="pb-3 mb-4 font-italic border-bottom">
+        {{ 'navbar.quiz' | translate}}
+    </h1>
+  </div>
+</div>
+
+<div class="row mb-2" *ngFor="let quiz of allQuiz">
+  <app-quiz
+    [quiz]="quiz"
+    (outputVote)="processVote($event)">
+  </app-quiz>
+</div>

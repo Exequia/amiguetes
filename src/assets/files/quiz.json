@@ -1,0 +1,27 @@
+[{
+    "name": "ASweetRevengeEnds",
+    "options": [
+        {
+            "name":"coorp",
+            "votes": 1,
+            "percent": 10
+        },
+        {
+            "name":"bank",
+            "votes": 2,
+            "percent": 20
+        },
+        {
+            "name":"family",
+            "votes": 3,
+            "percent": 30
+        },
+        {
+            "name":"close",
+            "votes": 4,
+            "percent": 40
+        }
+    ],
+    "finish": "2019-03-31", 
+    "totalVotes": 10
+}]

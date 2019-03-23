@@ -1,0 +1,12 @@
+.container {
+  max-width: 960px;
+}
+.custom-bg {
+  background-image: linear-gradient(to bottom right, #004085, #0c5460); 
+}
+.btn {
+  cursor: pointer;
+}
+.btn.disabled{
+  cursor: not-allowed;
+}

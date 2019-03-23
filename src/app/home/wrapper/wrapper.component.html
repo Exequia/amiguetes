@@ -1,0 +1,6 @@
+<app-main-new></app-main-new>
+<app-section
+  ng-if="sections.length>0"
+  *ngFor="let section of sections"
+  [sectionName]="section.key">
+</app-section>

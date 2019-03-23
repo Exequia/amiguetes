@@ -1,0 +1,28 @@
+[{
+    "name": "ASweetRevengeEnds",
+    "options": [
+        {
+            "name":"coorp",
+            "votes": 4
+        },
+        {
+            "name":"bank",
+            "votes": 4
+        },
+        {
+            "name":"family",
+            "votes": 4
+        },
+        {
+            "name":"close",
+            "votes": 4
+        }
+    ],
+    "finish": {
+        "year": "2019",
+        "month": 2,
+        "day": 31,
+        "hour": 23,
+        "minute": 59
+    }
+}]
