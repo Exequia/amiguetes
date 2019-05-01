@@ -1,6 +1,7 @@
 {
     "commons": {
-        "moreDetails": "Mas detalles"
+        "moreDetails": "Mas detalles",
+        "back": "Volver"
     },
     "navbar": {
         "title": "Amiguetes Company",
@@ -10,25 +11,27 @@
         "fakeNews": "Fake News",
         "quiz": "Encuestas"
     },
-    "projects": {
-        "ASweetRevenge": {
-            "name": "Una dulce venganza",
-            "summary": "Cada acción tiene una reaccion igual y opuesta, en algunas ocasiones, se sirve fría",
-            "description": "Una empresa textil de varias generaciones de grandes éxitos, vive su peor momento afrontando adversidades de todo tipo. Sus empleados se ven forzados a implicarse más allá de su responsabilidad puramente profesionales para garantizar sus puestos de trabajo. Una trepidante lucha entre intereses y necesidades de los protagonistas marcan este drama humano que nos recuerda el frágil equilibro de la situación laboral de la sociedad"
-        }
-    },
     "news": {
         "spinning": {    
             "title": "Se inicia el rodaje de 'Una dulce venganza'",
             "summary": "Lo último entre Amiguetes Company y Video Amasus se inició hace unas semanas y podrá disfrutarse este 2019",
-            "description": "Confirmado! Amiguetes Company y Ama",
-            "date": "21-03-2019"
+            "description": "Confirmado! Amiguetes Company y Ama"
+        },
+        "ASweetRevenge": {
+            "title": "Una dulce venganza",
+            "summary": "Cada acción tiene una reaccion igual y opuesta. Y en algunas ocasiones... se sirve fría",
+            "description": "Una empresa textil de varias generaciones de grandes éxitos, vive su peor momento afrontando adversidades de todo tipo. Sus empleados se ven forzados a implicarse más allá de su responsabilidad puramente profesionales para garantizar sus puestos de trabajo. Una trepidante lucha entre intereses y necesidades de los protagonistas marcan este drama humano que nos recuerda el frágil equilibro de la situación laboral de la sociedad"
+        },
+        "airplane": {
+            "title": "Fans a ojo de águila",
+            "summary": "Un grupo de incondicionales de video Amasus y Amiguetes, alquilan avionetas para ver las grabaciones desde el aire",
+            "description": "Una avioneta sobrevuela constantemente los días de rodaje y no es casualidad. Fuentes del club de fans aseguran que una parte de ellos se ha mobilizado para alquilar una avioneta y poder asistir al reodaje del último cortometraje desde el aire. Se rumorea que han solicitado a la productora figurar también en los créditos al haber asistido a la grabación como el que más"
         }
     },
     "quiz": {
         "vote": "Votar",
         "ASweetRevengeEnds": {
-            "title": "Cuál crees que será el final de 'Una dulce venganza'?",
+            "title": "¿Cuál crees que será el final de 'Una dulce venganza'?",
             "coorp": "Los empleados formarán una cooperativa para continuar con la empresa",
             "bank": "El banco comprará la empresa y la mantendrá abierta hasta venderla a un tercero",
             "family": "La familia Padrós continuará como propietaria y la mantendrá abierta",

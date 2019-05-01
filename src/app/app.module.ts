@@ -9,14 +9,13 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { NewComponent } from './components/new/new.component';
+import { NewComponent } from './news/new/new.component';
 import { WrapperComponent } from './home/wrapper/wrapper.component';
 import { MainNewComponent } from './home/main-new/main-new.component';
 import { SectionComponent } from './home/section/section.component';
 import { NewsWrapperComponent } from './news/news-wrapper/news-wrapper.component';
 import { FilmographyWrapperComponent } from './filmography/filmography-wrapper/filmography-wrapper.component';
 import { RumorWrapperComponent } from './rumor/rumor-wrapper/rumor-wrapper.component';
-import { FakeNewsWrapperComponent } from './fakeNews/fake-news-wrapper/fake-news-wrapper.component';
 import { QuizWrapperComponent } from './quiz/quiz-wrapper/quiz-wrapper.component';
 import { QuizComponent } from './quiz/quiz/quiz.component';
 import { QuizOptionComponent } from './quiz/quiz-option/quiz-option.component';
@@ -37,7 +36,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     NewsWrapperComponent,
     FilmographyWrapperComponent,
     RumorWrapperComponent,
-    FakeNewsWrapperComponent,
     QuizWrapperComponent,
     QuizComponent,
     QuizOptionComponent

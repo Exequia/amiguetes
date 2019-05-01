@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { ConfigService } from '../../services/config.service';
 
 @Component({
   selector: 'app-filmography-wrapper',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FilmographyWrapperComponent implements OnInit {
 
-  constructor() { }
+  filmName: string 
+
+  constructor(
+    private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.route.params.subscribe( params =>
+      this.filmName = params['filmName']
+    )
   }
 
 }

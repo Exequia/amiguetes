@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { RouterLink } from './models/routerLink';
+import { Section } from './models/section';
 import { ConfigService } from './services/config.service';
 
 @Component({
@@ -10,7 +10,9 @@ import { ConfigService } from './services/config.service';
 })
 export class AppComponent {
 
-  navItems: Array<RouterLink> = []
+  referencia: string = "texto en caliente"
+  mostrar: boolean = true;
+  navItems: Array<Section> = []
 
   constructor(translate: TranslateService, private configService: ConfigService) {
       translate.setDefaultLang('es');

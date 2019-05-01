@@ -3,26 +3,25 @@
     "options": [
         {
             "name":"coorp",
-            "votes": 4
+            "votes": 1,
+            "percent": 10
         },
         {
             "name":"bank",
-            "votes": 4
+            "votes": 2,
+            "percent": 20
         },
         {
             "name":"family",
-            "votes": 4
+            "votes": 3,
+            "percent": 30
         },
         {
             "name":"close",
-            "votes": 4
+            "votes": 4,
+            "percent": 40
         }
     ],
-    "finish": {
-        "year": "2019",
-        "month": 2,
-        "day": 31,
-        "hour": 23,
-        "minute": 59
-    }
+    "finish": "2019-03-31", 
+    "totalVotes": 10
 }]

@@ -8,6 +8,7 @@
 
 <div class="row mb-2" *ngFor="let quiz of allQuiz">
   <app-quiz
+    class="col w-100"
     [quiz]="quiz"
     (outputVote)="processVote($event)">
   </app-quiz>

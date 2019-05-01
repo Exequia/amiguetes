@@ -1,4 +1,8 @@
 {
-    "main": "spinning",
-    "news": []
+    "main": "ASweetRevenge",
+    "news": [
+        {"id":"airplane", "date": "15-03-2019"},
+        {"id":"spinning", "date": "10-03-2019"},
+        {"id":"ASweetRevenge", "date": "01-03-2019"}
+    ]
 }

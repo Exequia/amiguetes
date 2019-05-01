@@ -1,22 +1,11 @@
-[{
-    "id": 0,
-    "key":"news", 
-    "routerLink": "news"
-},{
-    "id": 1,
-    "key":"filmography", 
-    "routerLink": "filmography"
-},{
-    "id": 2,
-    "key":"rumor", 
-    "routerLink": "rumor"
-},{
-    "id": 3,
-    "key":"fakeNews", 
-    "routerLink": "fake-news"
-},{
-    "id": 4,
-    "key":"quiz", 
-    "routerLink": "quiz"
-}
+[
+    {
+        "id": 0,
+        "key":"news", 
+        "routerLink": "news"
+    },{
+        "id": 1,
+        "key":"quiz", 
+        "routerLink": "quiz"
+    }
 ]

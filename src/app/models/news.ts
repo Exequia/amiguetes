@@ -4,8 +4,6 @@ export interface News {
 }
 
 export interface New {
-    title: string;
-    summary: string;
-    description: string;
+    id: string;
     date: Date
 }

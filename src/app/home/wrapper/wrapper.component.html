@@ -2,5 +2,6 @@
 <app-section
   ng-if="sections.length>0"
   *ngFor="let section of sections"
-  [sectionName]="section.key">
+  [sectionName]="section.key"
+  [sectionItems]="items">
 </app-section>

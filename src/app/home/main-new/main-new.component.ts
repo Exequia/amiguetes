@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ConfigService } from '../../services/config.service';
+import { New } from '../../models/news';
 
 @Component({
   selector: 'app-main-new',
@@ -8,7 +9,7 @@ import { ConfigService } from '../../services/config.service';
 })
 export class MainNewComponent implements OnInit {
 
-  noticeName: string;
+  newMain: New = undefined;
 
   constructor(private configService: ConfigService) { }
 
@@ -17,7 +18,7 @@ export class MainNewComponent implements OnInit {
   }
 
   async loadMainNew() {
-    this.noticeName = await this.configService.getMainNewName();
+    this.newMain = await this.configService.getMainNewName();
   }
 
 }
