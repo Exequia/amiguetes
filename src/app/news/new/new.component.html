@@ -1,19 +1,22 @@
 <div class="row" *ngIf="new !== undefined">
   <div class="col blog-main">
     <div class="blog-post">
-      <h2 class="blog-post-title">{{'news.' + new.id + '.title' | translate}}</h2>
-      <p class="blog-post-meta">{{new.date}}</p>
+      <h2 class="blog-post-title">{{ 'news.' + new.id + '.title' | translate }}.</h2>
+      <p class="blog-post-meta">{{ new.date }}</p>
 
-      <h3 class="font-italic">{{'news.' + new.id + '.summary' | translate}}</h3>
-      <p>{{'news.' + new.id + '.description' | translate}}.</p>
-    </div><!-- /.blog-post -->
-  </div><!-- /.blog-main -->
-</div><!-- /.row -->
+      <h3 class="font-italic">{{ 'news.' + new.id + '.summary' | translate }}</h3>
+      <p>{{ 'news.' + new.id + '.description' | translate }}.</p>
+    </div>
+    <!-- /.blog-post -->
+  </div>
+  <!-- /.blog-main -->
+</div>
+<!-- /.row -->
 
 <div class="row mt-2">
   <div class="col">
     <button type="button" class="btn btn-outline-primary" (click)="goBack()">
-      {{'commons.back' | translate}}...
+      {{ 'commons.back' | translate }}...
     </button>
   </div>
 </div>
