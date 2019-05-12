@@ -1,6 +1,8 @@
 {
-    "main": "ASweetRevenge",
+    "main": "bomb",
     "news": [
+        {"id":"bomb", "date": "12-05-2019"},
+        {"id":"premiere", "date": "12-05-2019"},
         {"id":"airplane", "date": "15-03-2019"},
         {"id":"spinning", "date": "10-03-2019"},
         {"id":"ASweetRevenge", "date": "01-03-2019"}

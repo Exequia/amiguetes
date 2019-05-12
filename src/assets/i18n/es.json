@@ -12,10 +12,20 @@
     "quiz": "Encuestas"
   },
   "news": {
+    "bomb": {
+      "title": "Tragedia durante el estreno de 'Una dulce venganza'",
+      "summary": "<i class='fas fa-bomb'></i>Se ha producido un atentado en el edificio dónde iba a proyectarse el cortometraje",
+      "description": "Las autoridades han recibido una llamada anónima alertando de la existencia de una bomba en el edificio con detonación inmediata. El cuerpo de artificieros no ha podido desplazarse a tiempo a las instalaciones. Desgraciadamente la detonación se ha producido a los pocos minutos, tan solo 3 de los asistentes han podido escapar a tiempo y salvar sus vidas."
+    },
+    "premiere": {
+      "title": "Al fin se ha estrenado 'Una dulce venganza'",
+      "summary": "Las primeras criticas confirman que se trata de una nueva obra maestra",
+      "description": " 'La mejor hasta la fecha' (Spy Films), 'Me faltan aplausos para hacerle justicia' (Manos arriba), 'Le damos solo una estrella. El resto de estrellas ya las ha puesto el reparto del film' (Filmamento)"
+    },
     "spinning": {
       "title": "Se inicia el rodaje de 'Una dulce venganza'",
       "summary": "Lo último entre Amiguetes Company y Video Amasus se inició hace unas semanas y podrá disfrutarse este 2019",
-      "description": "Confirmado! Amiguetes Company y Ama"
+      "description": "Confirmado! VIDEOAMASUS y Amiguetes Company ya han iniciado la grabación de su último trabajo hasta la fecha. En los próximos meses se realizarán las sesiones de producción y postproducción para rematar la obra que promete superar a sus antecesoras. Fuentes internas confirman que se trata de un proyecto ambicioso que estará a la altura de las expectativas."
     },
     "ASweetRevenge": {
       "title": "Una dulce venganza",
